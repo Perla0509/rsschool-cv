@@ -2,7 +2,7 @@
 
 Russia, Saint-Petersburg
 
-![The Ural mountains are beautiful!](/images/ural-small.jpg "Me at Ural Mountains")
+![The Ural mountains are beautiful!](https://github.com/Perla0509/rsschool-cv/blob/gh-pages/images/ural-small.jpg?raw=true)
 ### Contacts
 ___
 email: <impari.online@yandex.ru>
@@ -43,7 +43,7 @@ ___
 ### Education Background
 ___
  Chemical Engineering, Kursk State Technology Univercity, 2008
-### Languages:
+### Languages
 ___
 Native: Russian
 
