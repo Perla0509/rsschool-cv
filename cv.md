@@ -30,10 +30,10 @@ ___
 - **print-bureau manager** 07.2005 - 08.2006
   creating and printing various polygraphy 
 
-- **art-studio operator** (https://kursk.foto-sivma.ru/) 11.2006 - 03.2007
+- **art-studio operator** [Photo-Sivma](https://kursk.foto-sivma.ru/) 11.2006 - 03.2007
   creating and pre-print photos
   
-- **content manager** (http://art-fabric.ru) 10.2016 - 08.2020
+- **content manager** [Art-fabric](http://art-fabric.ru) 10.2016 - 08.2020
   seo, content, smm
   
 - **freelance:**
