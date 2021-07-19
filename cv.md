@@ -1,23 +1,39 @@
-##### Svetlana Fedorova
-Russia, Saint-Petersburg
-> ![The Ural mountains are beautiful!](/images/ural.jpg "Me at Ural Mountains")
-***
-##### Contacts
-email: <impari.online@yandex.ru>
-discord: Perla0509 @t RSS-server
+## Svetlana Fedorova
 ___
-##### Skills
-- graphic design editors: Adobe Photoshop, Adobe Illustrator/CorelDraw, Figma, Inkskape;
-- basic knowledges: html, css, php, mySql
+Russia, Saint-Petersburg
+! [The Ural mountains are beautiful!](/images/ural-small.jpg "Me at Ural Mountains")
+#### Contacts
+___
+email: <impari.online@yandex.ru>
+discord: Perla0509 at RSS-server
 
-##### Code examples
+#### Skills
+___
+graphic design editors: 
+- Adobe Photoshop
+- Adobe Illustrator/CorelDraw/Inkscape
+- Figma
+
+basic web technology knowledges: 
+- html
+- css
+- php
+- mySql
+
+#### Code examples
+___
 ``   ``
-##### Work experience
+#### Work experience
+___
+-
 
-##### Education Background
+
+#### Education Background
+___
  Chemical Engineering, Kursk State Technology Univercity, 2008
-##### Languages:
-Native: Russian 
+#### Languages:
+___
+Native: Russian
 **English B1**
 Italian A2
 Chinese HSK1
