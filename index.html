@@ -5,77 +5,114 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Google Fonts -->
 	    <link href="https://fonts.googleapis.com/css?family=Red%20Hat%20Text:700" rel="stylesheet">
-	    <link href="https://fonts.googleapis.com/css?family=Monserrat:400" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Montserrat:400" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <title>CV</title>
     </head>
     <body>
-        <header>
-          <a href=#>Logo</a>
-          <nav>
-              <ul>
-                  <li><a href=#>About</a></li>
-                  <li><a href=#>Skills</a></li>
-                  <li><a href=#>Code examples</a></li>
-                  <li><a href=#>Work experience</a></li>
-                  <li><a href=#>Contacts</a></li>
-              </ul>
-          </nav>
-        </header>
-        <main>
-            <section>
-                <figure>Profile pic</figure>
-                <h2>About</h2>
-                <p>Name: Svetlana Fedorova
-                Location: Saint-Petersburg, Russia
-                E-mail: impari.online@yandex.ru
-                At Discord: Svetlana (Perla0509) at RSS JSFrontend 
-                Educational Background: Chemical Engineering, Kursk State Technology Univercity, 2008
-                Languages: Russian (Native) English B2 Italian A2 Chinese HSK1 </p>
+        <div class="container">
+            <header class="header">
+                <div class="header__logo">
+                    <a href=#>Circullum Vitae</a>
+                </div>
+                <nav>
+                    <ul class="header__menu">
+                        <li><a href=#about>About</a></li>
+                        <li><a href=#skills>Skills</a></li>
+                        <li><a href=#code>Code examples</a></li>
+                        <li><a href=#work>Work experience</a></li>
+                        <li><a href=#contacts>Contacts</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+            <section id="welcome">
+                <figure>
+                    <img src="./images/ural-square.jpg" alt="The Ural mountains are beatiful!" class="profilepic">
+                    <figcaption>My photo</figcaption>
+                </figure>
+                <div id="welcome_message">
+                    <h1>Hi, I am Svetlana Fedorova</h1>
+                    <span class="primary_text">and that is my CV</span>
+                </div>
             </section>
-            <section>
+            <section id="about">
+                <h2>About</h2>
+                <address>
+                    <span class="embossed"> Location:</span> Saint-Petersburg, Russia
+                    <span class="embossed">E-mail:</span><a href="mailto:impari.online@yandex.ru">impari.online@yandex.ru</a>
+                    <span class="embossed">At Discord:</span> Svetlana (Perla0509) at RSS JSFrontend 
+                </address>
+                <p>               
+                Educational Background: Chemical Engineering, Kursk State Technology Univercity, 2008
+                Speaking Languages:
+                <ul>
+                    <li>Russian (Native)</li>
+                    <li>English B2</li>
+                    <li>Italian A2</li>
+                    <li>Chinese HSK1 </li>
+                </ul>                   
+            </section>
+            <section id="skills">
                 <h2>Skills</h2>
-                <span>graphic design editors:</span>
-                <ul> 
+                <div class="wrapper">
+                <div class="section__skills"><span>graphic design editors:</span>
+                <ul class="skills__list"> 
                   <li>Adobe Photoshop</li>
                   <li>Adobe Illustrator</li>
                   <li class="">CorelDraw</li>
                   <li class="">Inkscape</li>
                   <li class="">Figma</li>
                 </ul>
-                <span>basic web technology knowledges:</span>
-                <ul>
-                    <li>html</li>
-                    <li>css</li>
-                    <li>php</li>
-                    <li>mySql</li>
-                </ul>
+                  </div>
+                  <div class="section__skills"><span>basic web technology knowledges:</span>
+                    <ul class="skills__list">
+                        <li>html</li>
+                        <li>css</li>
+                        <li>php</li>
+                        <li>mySql</li>
+                    </ul>
+                  </div>
+                </div>
             </section>
-            <section>
+            <section id="code">
                 <h2>Code examples</h2>
             </section>
-            <section>            
+            <section id="work">            
                 <h2>Work experience</h2>
-                <p>  **print-bureau manager** 07.2005 - 08.2006
-                creating and printing various polygraphy 
-              
-              - **art-studio operator** [Photo-Sivma](https://kursk.foto-sivma.ru/) 11.2006 - 03.2007
-                creating and pre-print photos
-                
-              - **content manager** [Art-fabric](http://art-fabric.ru) 10.2016 - 08.2020
-                seo, content, smm
-                
-              - **freelance:**
-                last work [Yalegroup website - particulary](http://yalegroup.ru)</p>
+                <ul class="workplaces__list">
+                <li class="workplaces__item"><span class="primary_text">print-bureau manager</span>
+                    <p class="secondary_text">07.2005 - 08.2006
+                        creating and printing various polygraphy</p>
+                </li>
+                <li class="workplaces__item">
+                    <span class="primary_text">art-studio operator <a href="https://kursk.foto-sivma.ru/" class="workplaces__link">Photo-Sivma</a></span>
+                    <p class="secondary_text">10.2016 - 08.2020
+                    creating and pre-print photos</p>
+                </li>
+                <li class="workplaces__item">
+                    <span class="primary_text">content manager <a href="http://art-fabric.ru" class="workplaces__link">Art-fabric</a></span>
+                    <p class="secondary_text">10.2016 - 08.2020
+                    seo, content, smm</p>
+                </li>
+                <li class="workplaces__item">
+                    <span class="primary_text">freelance:</span>
+                    <p class="secondary_text">last work <a href="http://yalegroup.ru" class="workplaces__link">Yalegroup website - particulary</a></p>
+                </li>
+            </ul>
             </section>
-        </main>
-        <footer>
-            <a>Logo</a>
-            <a>Github</a>
-            <form>
-                <input type="text">
-                <input type="button">
+            </main>
+            <footer class="footer" id="contacts">
+            <a class="rsschool" href="https://rs.school/js/">Logo</a>
+            <a class="github" href="https://perla0509.github.io">My Github</a>
+            <form id="messageme">
+                <input type="email" id="email" placeholder="Ваша почта для ответа">
+                <input type="text" id="message" placeholder="Сообщение" size=50 required>
+                <input type="submit"  value="Отправить">
             </form>
 
-        </footer>
+            </footer>
+     </div>
     </body>
 </html>
