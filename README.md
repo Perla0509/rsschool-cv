@@ -1,1 +1,1 @@
-https://perla0509.github.io/rsschool-cv/cv
+https://perla0509.github.io/rsschool-cv/
