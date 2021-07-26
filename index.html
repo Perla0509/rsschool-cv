@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Google Fonts -->
+	    <link href="https://fonts.googleapis.com/css?family=Red%20Hat%20Text:400,700" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>CV</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <div class="header__logo">
+                    <a href=#>Circullum Vitae</a>
+                </div>
+                <nav>
+                    <ul class="header__menu">
+                        <li><a href=#about>About</a></li>
+                        <li><a href=#skills>Skills</a></li>
+                        <li><a href=#code>Code examples</a></li>
+                        <li><a href=#work>Work experience</a></li>
+                        <li><a href=#contacts>Contacts</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section id="welcome">                    
+                        <figure class="col welcome">
+                            <img src="./images/ural-square.jpg" alt="The Ural mountains are beatiful!" class="profilepic">
+                        </figure>                         
+                        <div class="col welcome">
+                            <h1>Hi, I am Svetlana Fedorova</h1>
+                            <span>and that is my CV</span>
+                        </div>                                      
+                </section>
+                <section id="about">                    
+                  <h2>About</h2>
+                  <div class="wrapper">
+                    <div>
+                        <p><span>Location: </span> Saint-Petersburg, Russia</p>
+                        <address>
+                            <span>E-mail: </span><a href="mailto:impari.online@yandex.ru">impari.online@yandex.ru</a><br>
+                            <span>At Discord: </span><a href="https://discord.com/users/497296399696658434/">Svetlana (Perla0509) at RSS JS Server</a>
+                        </address>
+                        <p>Educational Background: Chemical Engineering,<br>
+                            <span class="secondary_text">Kursk State Technology Univercity, 2008</span></p>
+                    </div>               
+                    <div>
+                        <span>Speaking Languages:</span>
+                        <ul>
+                            <li>Russian (Native)</li>
+                            <li>English B2</li>
+                            <li>Italian A2</li>
+                            <li>Chinese HSK1 </li>
+                        </ul>              
+                    </div>   
+                </div>                  
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="wrapper">
+                <div class="section__skills"><span>graphic design editors:</span>
+                <ul class="skills__list"> 
+                  <li>Adobe Photoshop</li>
+                  <li>Adobe Illustrator</li>
+                  <li>CorelDraw</li>
+                  <li>Inkscape</li>
+                  <li>Figma</li>
+                </ul>
+                  </div>
+                  <div class="section__skills"><span>basic web technology knowledges:</span>
+                    <ul class="skills__list">
+                        <li>html</li>
+                        <li>css</li>
+                        <li>php</li>
+                        <li>mySql</li>
+                    </ul>
+                  </div>
+                </div>
+            </section>
+            <section id="code">
+                <h2>Code examples</h2>
+                <div class="wrapper">
+                    <div class="example">
+                        <pre><code>
+const getTypeOfSentence = (sentence) => {
+    const lastChar = sentence.slice(-1);
+        if (lastChar === '?') {
+            return 'question';
+            }
+                              
+        return 'normal';
+};</code>
+</pre>
+                    </div>
+                    <div class="example">
+<pre><code>const repeat = (text, times) => {
+let result = '';
+let i = 1;                                
+     while (i <= times) {    
+         result = `${result}${text}`;
+         i = i + 1;
+         }
+return result;
+};</code></pre>                        
+                    </div>
+                </div>
+            </section>
+            <section id="work">            
+                <h2>Work experience</h2>
+                <ul class="workplaces__list">
+                <li class="workplaces__item"><span class="primary_text">print-bureau manager</span>
+                    <p class="secondary_text">07.2005 - 08.2006
+                        creating and printing various polygraphy</p>
+                </li>
+                <li class="workplaces__item">
+                    <span class="primary_text">art-studio operator <a href="https://kursk.foto-sivma.ru/" class="workplaces__link">Photo-Sivma</a></span>
+                    <p class="secondary_text">10.2016 - 08.2020
+                    creating and pre-print photos</p>
+                </li>
+                <li class="workplaces__item">
+                    <span class="primary_text">content manager <a href="http://art-fabric.ru" class="workplaces__link">Art-fabric</a></span>
+                    <p class="secondary_text">10.2016 - 08.2020
+                    seo, content, smm</p>
+                </li>
+                <li class="workplaces__item">
+                    <span class="primary_text">freelance:</span>
+                    <p class="secondary_text">last work <a href="http://yalegroup.ru" class="workplaces__link">Yalegroup website - particulary</a></p>
+                </li>
+            </ul>
+            </section>
+            </main>
+            <footer class="footer" id="contacts">
+                <div class="wrapper">
+                    <time datetime="2021-07-26 19:00">2021</time>
+                    <a class="rsschool" href="https://rs.school/js/"></a>
+                    
+                    <a class="github" href="https://perla0509.github.io">My github</a>                    
+                    <form id="messageme">
+                        <div class="form__field">
+                            <label for="email">Электронная почта:</label>
+                            <input type="text" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Invalid email address" id="email" />
+                            <label for="message">Оставить сообщение</label>
+                            <textarea id="message" placeholder="Сообщение" rows=3 required></textarea>
+                            <input class="btn" type="submit" value="Отправить">
+                        </div>
+                    </form>                 
+                </div>            
+            </footer>
+     </div>
+    </body>
+</html>
