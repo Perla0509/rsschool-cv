@@ -1,0 +1,176 @@
+body, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:link, a:active, a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #d66910;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+
+}
+
+.header, .workplaces__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+ }
+ 
+ .header__menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 30px;      
+ }
+
+ .header__menu li {
+     padding: 10px 20px;
+     list-style: none;
+     text-transform: uppercase;
+ }
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;    
+}
+
+h1, h2 {
+     font-family: Red Hat Text, sans-serif;
+}
+
+section {
+    min-height: 230px;
+}
+
+.profilepic {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.section__skills {
+    float: left;
+    padding-right: 30px;
+}
+
+#code div.wrapper{
+    justify-content: flex-start;
+
+}
+
+.example {
+    display: inline-block;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.workplaces__list{
+  margin-left: -3em;
+  list-style: none;
+  align-items: stretch;
+}
+
+.workplaces__item {    
+    background-color: #DAD2CA;
+    margin: 5px;
+    padding: 18px;
+    flex: 1;
+}
+
+.primary_text {
+ text-transform: capitalize;
+}
+
+.secondary_text {
+    color: #6b705c;
+}
+
+.footer{
+    padding-bottom: 1em;
+    background-color: #6b705c;;
+}
+
+.footer .wrapper {
+    align-items: center;
+    justify-content: baseline;
+}
+
+a.rsschool::before {
+    background-image: url(./images/rs_school_js.svg);
+    background-size: 150px 150px;
+    display: block;
+    width: 150px; 
+    height: 150px;
+    content:"";
+}
+
+a.github::before {
+    background-image: url(./images/github.svg);
+    background-size: 3em 3em;
+    display: block;
+    width: 3em; 
+    height: 3em;
+    content:"";
+    margin-left: 1.3em;
+}
+
+form {
+    padding-left: 10px;
+    padding-top: 10px;
+    flex-basis: 40%;
+}
+
+.form__field input, textarea{
+    border-radius: 10px;
+    line-height: 1.2em;
+}
+
+
+.form__field label, .form__field input, .form__field textarea { 
+    text-transform: uppercase;
+    font-size: 0.8em;
+    display: block;
+    width: 100%;
+ }
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #d66910;
+    border-width: 0;
+    margin-top: 10px;
+}
+
+time {   
+    display:inline-block;
+    font-size: 2.8em;
+    font-weight: 700;
+    flex-basis:5%;
+}
